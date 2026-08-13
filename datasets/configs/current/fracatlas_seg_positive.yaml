@@ -1,0 +1,8 @@
+path: fracatlas_seg_yolo
+
+train: train_positive.txt
+val: val_positive.txt
+test: test_positive.txt
+
+names:
+  0: fracture

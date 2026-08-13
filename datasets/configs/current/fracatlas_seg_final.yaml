@@ -1,0 +1,8 @@
+path: fracatlas_seg_yolo
+
+train: train_final_mixed.txt
+val: images/val
+test: images/test
+
+names:
+  0: fracture

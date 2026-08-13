@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.env
+.env.*
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# IDE and system files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Build files
+build/
+dist/
+*.egg-info/
+.eggs/
+site/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.cache
+
+# Training outputs
+runs/
+wandb/
+mlruns/
+
+# FracAtlas data
+# Python scripts and YAML files directly under datasets/ will still be uploaded.
+datasets/fracatlas_raw/
+datasets/fracatlas_yolo/
+datasets/fracatlas_seg_yolo/
+
+# Model weights
+*.pt
+*.pth
+*.weights
+*.onnx
+*.engine
+*.torchscript
+*.tflite
+*.h5
+*.pb
+
+# Generated analysis results
+fracture_case_mask_aligned/
+*_fracture_analysis/
+*_fracture_analysis_*/
+inference_outputs/
+tta_preview.*
+result_image.*
+
+# Downloaded archives
+*.zip
+*.rar
+*.7z
+
+# Ultralytics upstream project files not used by FractureVision
+.github/
+docs/
+docker/
+examples/
+
+# Generated Ultralytics assets
+ultralytics/assets/

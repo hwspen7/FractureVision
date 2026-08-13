@@ -1,0 +1,8 @@
+path: fracatlas_yolo
+
+train: train_stage3_crops.txt
+val: images/val
+test: images/test
+
+names:
+  0: fracture
