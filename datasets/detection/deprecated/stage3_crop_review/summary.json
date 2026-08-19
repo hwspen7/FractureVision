@@ -1,0 +1,20 @@
+{
+  "checked_crop_images": 1327,
+  "category_counts": {
+    "positive": 757,
+    "hard_negative": 285,
+    "random_negative": 285
+  },
+  "positive_label_objects": 1005,
+  "review_sample_counts": {
+    "positive": 60,
+    "hard_negative": 60,
+    "random_negative": 60
+  },
+  "page_counts": {
+    "positive": 5,
+    "hard_negative": 5,
+    "random_negative": 5
+  },
+  "seed": 46
+}

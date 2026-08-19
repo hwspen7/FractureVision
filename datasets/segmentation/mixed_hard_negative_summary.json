@@ -1,0 +1,10 @@
+{
+  "positive_images": 570,
+  "hard_negative_images": 570,
+  "total_training_images": 1140,
+  "positive_objects": 757,
+  "positive_to_negative_ratio": "1:1",
+  "duplicates": 0,
+  "seed": 61,
+  "output": "datasets/segmentation/train_mixed_hard_negative.txt"
+}

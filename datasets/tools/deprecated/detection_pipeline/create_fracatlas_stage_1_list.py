@@ -4,13 +4,13 @@ import json
 from pathlib import Path
 
 
-DATASETS_DIR = Path(__file__).resolve().parent
-DATASET_ROOT = DATASETS_DIR / "fracatlas_yolo"
+DATASETS_DIR = Path(__file__).resolve().parents[3]
+DATASET_ROOT = DATASETS_DIR / "detection"
 MANIFEST = DATASET_ROOT / "split_manifest.csv"
 
-TRAIN_LIST = DATASET_ROOT / "train_selected.txt"
-HARD_NEGATIVE_POOL = DATASET_ROOT / "hard_negative_pool.txt"
-SUMMARY_FILE = DATASET_ROOT / "train_selection_summary.json"
+TRAIN_LIST = DATASET_ROOT / "deprecated" / "train_selected.txt"
+HARD_NEGATIVE_POOL = DATASET_ROOT / "deprecated" / "hard_negative_pool.txt"
+SUMMARY_FILE = DATASET_ROOT / "deprecated" / "train_selection_summary.json"
 
 NEGATIVES_PER_POSITIVE = 2
 SEED = 42

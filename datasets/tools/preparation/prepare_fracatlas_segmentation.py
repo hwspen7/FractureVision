@@ -11,9 +11,9 @@ from PIL import Image, ImageOps
 
 
 DATASETS_DIR = Path(__file__).resolve().parents[2]
-SOURCE_DETECTION = DATASETS_DIR / "fracatlas_yolo"
-SOURCE_RAW = DATASETS_DIR / "fracatlas_raw" / "FracAtlas"
-DEFAULT_OUTPUT = DATASETS_DIR / "fracatlas_seg_yolo"
+SOURCE_DETECTION = DATASETS_DIR / "detection"
+SOURCE_RAW = DATASETS_DIR / "raw" / "FracAtlas"
+DEFAULT_OUTPUT = DATASETS_DIR / "segmentation"
 IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".bmp", ".tif", ".tiff", ".webp"}
 SPLITS = ("train", "val", "test")
 
@@ -26,13 +26,13 @@ def parse_args() -> argparse.Namespace:
         "--datasets-dir",
         type=Path,
         default=DATASETS_DIR,
-        help="Directory containing fracatlas_yolo and fracatlas_raw.",
+        help="Directory containing detection and raw datasets.",
     )
     parser.add_argument(
         "--output",
         type=Path,
         default=None,
-        help="Optional output directory. Defaults to datasets/fracatlas_seg_yolo.",
+        help="Optional output directory. Defaults to datasets/segmentation.",
     )
     return parser.parse_args()
 
@@ -205,9 +205,9 @@ def link_or_copy(source: Path, target: Path) -> str:
 def main() -> None:
     args = parse_args()
     datasets_dir = args.datasets_dir.resolve()
-    source_detection = datasets_dir / "fracatlas_yolo"
-    source_raw = datasets_dir / "fracatlas_raw" / "FracAtlas"
-    output = (args.output or datasets_dir / "fracatlas_seg_yolo").resolve()
+    source_detection = datasets_dir / "detection"
+    source_raw = datasets_dir / "raw" / "FracAtlas"
+    output = (args.output or datasets_dir / "segmentation").resolve()
     building = output.with_name(f"{output.name}_building")
 
     if output.exists():

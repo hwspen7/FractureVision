@@ -1,0 +1,7 @@
+{
+  "model": "./runs/segment/fracatlas_yolo11s_seg_recall_v2/weights/f2_best.pt",
+  "selected_variant": "original",
+  "approved_for_qt": false,
+  "decision": "SMOKE_TEST_ONLY",
+  "test_split_accessed": false
+}

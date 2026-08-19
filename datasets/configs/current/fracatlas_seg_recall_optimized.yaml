@@ -1,0 +1,8 @@
+path: segmentation
+
+train: train_recall_optimized.txt
+val: images/val
+test: images/test
+
+names:
+  0: fracture

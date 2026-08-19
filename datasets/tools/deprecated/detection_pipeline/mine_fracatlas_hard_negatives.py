@@ -7,22 +7,23 @@ import torch
 from ultralytics import YOLO
 
 
-ROOT = Path(__file__).resolve().parents[1]
-DATASET_ROOT = ROOT / "datasets" / "fracatlas_yolo"
+ROOT = Path(__file__).resolve().parents[4]
+DATASET_ROOT = ROOT / "datasets" / "detection"
 
 DEFAULT_MODEL = (
     ROOT
-    / "runs"
-    / "detect"
-    / "fracatlas_yolo11s_baseline_v1"
+    / "experiments"
+    / "detection"
+    / "training"
+    / "baseline"
     / "weights"
     / "best.pt"
 )
 
-POOL_FILE = DATASET_ROOT / "hard_negative_pool.txt"
-SCORES_FILE = DATASET_ROOT / "hard_negative_scores.csv"
-SELECTED_FILE = DATASET_ROOT / "mined_hard_negatives.txt"
-SUMMARY_FILE = DATASET_ROOT / "hard_negative_mining_summary.json"
+POOL_FILE = DATASET_ROOT / "deprecated" / "hard_negative_pool.txt"
+SCORES_FILE = DATASET_ROOT / "deprecated" / "hard_negative_scores.csv"
+SELECTED_FILE = DATASET_ROOT / "deprecated" / "mined_hard_negatives.txt"
+SUMMARY_FILE = DATASET_ROOT / "deprecated" / "hard_negative_mining_summary.json"
 
 
 def select_device():

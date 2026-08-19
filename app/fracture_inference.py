@@ -11,9 +11,10 @@ from ultralytics import YOLO
 
 DEFAULT_MODEL = (
     Path(__file__).resolve().parents[1]
-    / "runs"
-    / "segment"
-    / "fracatlas_yolo11s_seg_recall_v2"
+    / "experiments"
+    / "segmentation"
+    / "training"
+    / "recall_optimized"
     / "weights"
     / "f2_best.pt"
 )

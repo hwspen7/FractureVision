@@ -4,7 +4,7 @@ from pathlib import Path
 
 DATASET_ROOT = (
     Path(__file__).resolve().parents[2]
-    / "fracatlas_yolo"
+    / "detection"
 )
 
 IMAGE_EXTENSIONS = {

@@ -1,0 +1,13 @@
+{
+  "positive_images": 570,
+  "hard_negative_images": 143,
+  "random_negative_images": 142,
+  "total_negative_images": 285,
+  "total_training_images": 855,
+  "positive_objects": 757,
+  "positive_to_negative_ratio": "2:1",
+  "hard_to_random_negative_ratio": "approximately 1:1",
+  "duplicates": 0,
+  "seed": 81,
+  "output": "datasets/segmentation/train_recall_optimized.txt"
+}

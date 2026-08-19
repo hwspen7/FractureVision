@@ -1,4 +1,4 @@
-path: fracatlas_yolo
+path: detection
 
 train: benchmark_train_positive.txt
 val: benchmark_val_positive.txt

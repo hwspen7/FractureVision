@@ -36,9 +36,10 @@ from fracture_inference import (
 ROOT = Path(__file__).resolve().parents[1]
 MODEL_PATH = (
     ROOT
-    / "runs"
-    / "segment"
-    / "fracatlas_yolo11s_seg_recall_v2"
+    / "experiments"
+    / "segmentation"
+    / "training"
+    / "recall_optimized"
     / "weights"
     / "f2_best.pt"
 )

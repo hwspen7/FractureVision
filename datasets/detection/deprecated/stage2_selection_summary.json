@@ -1,0 +1,27 @@
+{
+  "positive_images": 570,
+  "hard_negative_images": 285,
+  "random_negative_images": 285,
+  "total_negative_images": 570,
+  "total_training_images": 1140,
+  "positive_to_negative_ratio": "1:1",
+  "hard_negative_regions": {
+    "hand": 114,
+    "hand+hip+shoulder+mixed": 3,
+    "hand+shoulder+mixed": 29,
+    "hip": 8,
+    "leg": 118,
+    "leg+hip+mixed": 5,
+    "shoulder": 8
+  },
+  "random_negative_regions": {
+    "hand": 72,
+    "hand+hip+shoulder+mixed": 1,
+    "hand+shoulder+mixed": 14,
+    "hip": 15,
+    "leg": 167,
+    "leg+hip+mixed": 8,
+    "shoulder": 8
+  },
+  "seed": 43
+}

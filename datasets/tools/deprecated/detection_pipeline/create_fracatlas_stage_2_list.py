@@ -6,15 +6,15 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 
-DATASETS_DIR = Path(__file__).resolve().parent
-DATASET_ROOT = DATASETS_DIR / "fracatlas_yolo"
+DATASETS_DIR = Path(__file__).resolve().parents[3]
+DATASET_ROOT = DATASETS_DIR / "detection"
 
 MANIFEST_FILE = DATASET_ROOT / "split_manifest.csv"
-HARD_FILE = DATASET_ROOT / "mined_hard_negatives.txt"
+HARD_FILE = DATASET_ROOT / "deprecated" / "mined_hard_negatives.txt"
 
-TRAIN_FILE = DATASET_ROOT / "train_stage2.txt"
-RANDOM_FILE = DATASET_ROOT / "stage2_random_negatives.txt"
-SUMMARY_FILE = DATASET_ROOT / "stage2_selection_summary.json"
+TRAIN_FILE = DATASET_ROOT / "deprecated" / "train_stage2.txt"
+RANDOM_FILE = DATASET_ROOT / "deprecated" / "stage2_random_negatives.txt"
+SUMMARY_FILE = DATASET_ROOT / "deprecated" / "stage2_selection_summary.json"
 
 HARD_NEGATIVE_COUNT = 285
 RANDOM_NEGATIVE_COUNT = 285

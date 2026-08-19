@@ -3,11 +3,11 @@ import json
 from pathlib import Path
 
 
-DATASETS_DIR = Path(__file__).resolve().parent
-DATASET_ROOT = DATASETS_DIR / "fracatlas_yolo"
+DATASETS_DIR = Path(__file__).resolve().parents[3]
+DATASET_ROOT = DATASETS_DIR / "detection"
 
-STAGE_2_LIST = DATASET_ROOT / "train_stage2.txt"
-STAGE_3_LIST = DATASET_ROOT / "train_stage3.txt"
+STAGE_2_LIST = DATASET_ROOT / "deprecated" / "train_stage2.txt"
+STAGE_3_LIST = DATASET_ROOT / "deprecated" / "train_stage3.txt"
 
 SEED = 44
 

@@ -1,4 +1,4 @@
-path: fracatlas_seg_yolo
+path: segmentation
 
 train: train_positive.txt
 val: val_positive.txt

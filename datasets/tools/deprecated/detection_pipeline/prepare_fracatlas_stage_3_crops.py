@@ -9,27 +9,28 @@ from PIL import Image, ImageOps
 from ultralytics import YOLO
 
 
-ROOT = Path(__file__).resolve().parents[1]
-DATASET_ROOT = ROOT / "datasets" / "fracatlas_yolo"
+ROOT = Path(__file__).resolve().parents[4]
+DATASET_ROOT = ROOT / "datasets" / "detection"
 
-STAGE_2_LIST = DATASET_ROOT / "train_stage2.txt"
-HARD_NEGATIVE_LIST = DATASET_ROOT / "mined_hard_negatives.txt"
-RANDOM_NEGATIVE_LIST = DATASET_ROOT / "stage2_random_negatives.txt"
+STAGE_2_LIST = DATASET_ROOT / "deprecated" / "train_stage2.txt"
+HARD_NEGATIVE_LIST = DATASET_ROOT / "deprecated" / "mined_hard_negatives.txt"
+RANDOM_NEGATIVE_LIST = DATASET_ROOT / "deprecated" / "stage2_random_negatives.txt"
 
-BUILD_ROOT = DATASET_ROOT / "stage3_crops_building"
-OUTPUT_ROOT = DATASET_ROOT / "stage3_crops"
+BUILD_ROOT = DATASET_ROOT / "deprecated" / "stage3_crops_building"
+OUTPUT_ROOT = DATASET_ROOT / "deprecated" / "stage3_crops"
 
 OUTPUT_IMAGES = BUILD_ROOT / "images" / "train"
 OUTPUT_LABELS = BUILD_ROOT / "labels" / "train"
 
-TRAIN_LIST = DATASET_ROOT / "train_stage3_crops.txt"
+TRAIN_LIST = DATASET_ROOT / "deprecated" / "train_stage3_crops.txt"
 SUMMARY_FILE = BUILD_ROOT / "summary.json"
 
 DEFAULT_MODEL = (
     ROOT
-    / "runs"
-    / "detect"
-    / "fracatlas_yolo11s_stage_2_v1"
+    / "experiments"
+    / "detection"
+    / "training"
+    / "balanced_hard_negative"
     / "weights"
     / "best.pt"
 )
@@ -350,7 +351,7 @@ def save_crop(image, crop_box, filename, labels):
     save_label(label_path, labels)
 
     return (
-        f"./stage3_crops/images/train/{filename}"
+        f"./deprecated/stage3_crops/images/train/{filename}"
     )
 
 

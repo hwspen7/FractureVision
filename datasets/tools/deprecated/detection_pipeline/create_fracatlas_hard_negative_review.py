@@ -7,20 +7,21 @@ from PIL import Image, ImageDraw
 from ultralytics import YOLO
 
 
-ROOT = Path(__file__).resolve().parents[1]
-DATASET_ROOT = ROOT / "datasets" / "fracatlas_yolo"
+ROOT = Path(__file__).resolve().parents[4]
+DATASET_ROOT = ROOT / "datasets" / "detection"
 
 MODEL_PATH = (
     ROOT
-    / "runs"
-    / "detect"
-    / "fracatlas_yolo11s_baseline_v1"
+    / "experiments"
+    / "detection"
+    / "training"
+    / "baseline"
     / "weights"
     / "best.pt"
 )
 
-SCORES_FILE = DATASET_ROOT / "hard_negative_scores.csv"
-OUTPUT_DIR = DATASET_ROOT / "hard_negative_review"
+SCORES_FILE = DATASET_ROOT / "deprecated" / "hard_negative_scores.csv"
+OUTPUT_DIR = DATASET_ROOT / "deprecated" / "hard_negative_review"
 
 COLS = 3
 ROWS = 2

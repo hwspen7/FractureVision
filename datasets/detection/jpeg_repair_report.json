@@ -1,0 +1,610 @@
+{
+  "checked_images": 4068,
+  "repaired_images": 85,
+  "repaired_by_split": {
+    "test": 8,
+    "train": 68,
+    "val": 9
+  },
+  "removed_yolo_caches": [
+    "./datasets/fracatlas_yolo/labels/train.cache",
+    "./datasets/fracatlas_yolo/labels/val.cache"
+  ],
+  "images": [
+    {
+      "image_id": "IMG0004145.jpg",
+      "split": "test",
+      "source_error": "image file is truncated (0 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004169.jpg",
+      "split": "test",
+      "source_error": "image file is truncated (15 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004173.jpg",
+      "split": "test",
+      "source_error": "image file is truncated (5 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004228.jpg",
+      "split": "test",
+      "source_error": "image file is truncated (19 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004278.jpg",
+      "split": "test",
+      "source_error": "image file is truncated (30 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004279.jpg",
+      "split": "test",
+      "source_error": "image file is truncated (6 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004307.jpg",
+      "split": "test",
+      "source_error": "missing JPEG end marker",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004310.jpg",
+      "split": "test",
+      "source_error": "missing JPEG end marker",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004027.jpg",
+      "split": "train",
+      "source_error": "missing JPEG end marker",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004029.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (23 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004036.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (13 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004070.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (2 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004073.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (6 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004075.jpg",
+      "split": "train",
+      "source_error": "missing JPEG end marker",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004079.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (27 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004084.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (5 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004092.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (7 bytes not processed)",
+      "width": 454,
+      "height": 373
+    },
+    {
+      "image_id": "IMG0004094.jpg",
+      "split": "train",
+      "source_error": "missing JPEG end marker",
+      "width": 454,
+      "height": 373
+    },
+    {
+      "image_id": "IMG0004097.jpg",
+      "split": "train",
+      "source_error": "missing JPEG end marker",
+      "width": 454,
+      "height": 373
+    },
+    {
+      "image_id": "IMG0004098.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (19 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004100.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (20 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004105.jpg",
+      "split": "train",
+      "source_error": "missing JPEG end marker",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004107.jpg",
+      "split": "train",
+      "source_error": "missing JPEG end marker",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004109.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (7 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004119.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (8 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004120.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (10 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004121.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (42 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004123.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (18 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004129.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (4 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004130.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (7 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004134.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (3 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004142.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (33 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004143.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (8 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004146.jpg",
+      "split": "train",
+      "source_error": "missing JPEG end marker",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004148.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (18 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004149.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (37 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004154.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (26 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004155.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (0 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004159.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (10 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004167.jpg",
+      "split": "train",
+      "source_error": "missing JPEG end marker",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004170.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (12 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004172.jpg",
+      "split": "train",
+      "source_error": "missing JPEG end marker",
+      "width": 454,
+      "height": 373
+    },
+    {
+      "image_id": "IMG0004174.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (6 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004177.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (38 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004179.jpg",
+      "split": "train",
+      "source_error": "missing JPEG end marker",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004182.jpg",
+      "split": "train",
+      "source_error": "missing JPEG end marker",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004189.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (0 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004194.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (0 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004195.jpg",
+      "split": "train",
+      "source_error": "missing JPEG end marker",
+      "width": 454,
+      "height": 373
+    },
+    {
+      "image_id": "IMG0004214.jpg",
+      "split": "train",
+      "source_error": "missing JPEG end marker",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004225.jpg",
+      "split": "train",
+      "source_error": "missing JPEG end marker",
+      "width": 454,
+      "height": 373
+    },
+    {
+      "image_id": "IMG0004226.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (28 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004227.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (33 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004241.jpg",
+      "split": "train",
+      "source_error": "missing JPEG end marker",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004243.jpg",
+      "split": "train",
+      "source_error": "missing JPEG end marker",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004244.jpg",
+      "split": "train",
+      "source_error": "missing JPEG end marker",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004251.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (24 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004252.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (71 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004255.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (21 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004259.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (6 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004263.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (24 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004264.jpg",
+      "split": "train",
+      "source_error": "missing JPEG end marker",
+      "width": 454,
+      "height": 373
+    },
+    {
+      "image_id": "IMG0004270.jpg",
+      "split": "train",
+      "source_error": "missing JPEG end marker",
+      "width": 454,
+      "height": 373
+    },
+    {
+      "image_id": "IMG0004273.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (12 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004274.jpg",
+      "split": "train",
+      "source_error": "missing JPEG end marker",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004275.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (25 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004280.jpg",
+      "split": "train",
+      "source_error": "missing JPEG end marker",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004285.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (13 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004286.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (49 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004287.jpg",
+      "split": "train",
+      "source_error": "missing JPEG end marker",
+      "width": 454,
+      "height": 373
+    },
+    {
+      "image_id": "IMG0004288.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (4 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004290.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (60 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004297.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (10 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004298.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (19 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004304.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (23 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004308.jpg",
+      "split": "train",
+      "source_error": "image file is truncated (42 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004028.jpg",
+      "split": "val",
+      "source_error": "image file is truncated (20 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004062.jpg",
+      "split": "val",
+      "source_error": "missing JPEG end marker",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004076.jpg",
+      "split": "val",
+      "source_error": "image file is truncated (0 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004122.jpg",
+      "split": "val",
+      "source_error": "image file is truncated (32 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004223.jpg",
+      "split": "val",
+      "source_error": "missing JPEG end marker",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004256.jpg",
+      "split": "val",
+      "source_error": "image file is truncated (70 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004258.jpg",
+      "split": "val",
+      "source_error": "image file is truncated (5 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004291.jpg",
+      "split": "val",
+      "source_error": "image file is truncated (13 bytes not processed)",
+      "width": 373,
+      "height": 454
+    },
+    {
+      "image_id": "IMG0004302.jpg",
+      "split": "val",
+      "source_error": "missing JPEG end marker",
+      "width": 373,
+      "height": 454
+    }
+  ]
+}
