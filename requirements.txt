@@ -3,7 +3,7 @@
 # Numerical computing
 # NumPy 2.x removes np.trapz, which is used by Ultralytics 8.3.40.
 numpy>=1.23.0,<2.0.0
-scipy>=1.10.0,<2.0.0
+scipy>=1.15.3,<2.0.0
 
 # Deep learning
 torch>=2.2.0,<3.0.0
