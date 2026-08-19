@@ -1,0 +1,8 @@
+{
+  "positive_images": 570,
+  "selected_negative_images": 1140,
+  "selected_training_images": 1710,
+  "reserved_hard_negative_images": 1538,
+  "negative_to_positive_ratio": 2,
+  "seed": 42
+}

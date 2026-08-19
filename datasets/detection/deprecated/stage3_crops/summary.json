@@ -1,0 +1,15 @@
+{
+  "source_full_images": 1140,
+  "source_positive_images": 570,
+  "source_negative_images": 570,
+  "positive_context_crops": 757,
+  "objects_in_positive_crops": 1005,
+  "hard_negative_crops": 285,
+  "random_negative_crops": 285,
+  "total_crop_images": 1327,
+  "total_training_images": 2467,
+  "positive_training_images": 1327,
+  "negative_training_images": 1140,
+  "seed": 45,
+  "model_used_for_hard_negative_crops": "experiments/detection/training/balanced_hard_negative/weights/best.pt"
+}

@@ -1,6 +1,6 @@
-path: fracatlas_yolo
+path: detection
 
-train: train_selected.txt
+train: deprecated/train_selected.txt
 val: images/val
 test: images/test
 

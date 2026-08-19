@@ -6,15 +6,15 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont, ImageOps
 
 
-ROOT = Path(__file__).resolve().parents[1]
-DATASET_ROOT = ROOT / "datasets" / "fracatlas_yolo"
+ROOT = Path(__file__).resolve().parents[4]
+DATASET_ROOT = ROOT / "datasets" / "detection"
 
-CROP_ROOT = DATASET_ROOT / "stage3_crops"
+CROP_ROOT = DATASET_ROOT / "deprecated" / "stage3_crops"
 IMAGE_DIR = CROP_ROOT / "images" / "train"
 LABEL_DIR = CROP_ROOT / "labels" / "train"
 
-HARD_SCORES = DATASET_ROOT / "hard_negative_scores.csv"
-REVIEW_ROOT = DATASET_ROOT / "stage3_crop_review"
+HARD_SCORES = DATASET_ROOT / "deprecated" / "hard_negative_scores.csv"
+REVIEW_ROOT = DATASET_ROOT / "deprecated" / "stage3_crop_review"
 
 SEED = 46
 PAGE_COLUMNS = 4

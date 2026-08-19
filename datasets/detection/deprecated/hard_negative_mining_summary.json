@@ -1,0 +1,12 @@
+{
+  "model": "experiments/detection/training/baseline/weights/best.pt",
+  "candidate_negative_images": 1538,
+  "selected_hard_negatives": 285,
+  "imgsz": 768,
+  "images_with_confidence_ge_005": 170,
+  "images_with_confidence_ge_010": 118,
+  "images_with_confidence_ge_025": 60,
+  "images_with_confidence_ge_050": 30,
+  "highest_false_positive_confidence": 0.8364500403404236,
+  "lowest_selected_confidence": 0.015987196937203407
+}

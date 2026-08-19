@@ -1,0 +1,12 @@
+{
+  "model": "experiments/segmentation/training/positive_only/weights/best.pt",
+  "candidate_negative_images": 2678,
+  "selected_hard_negatives": 570,
+  "imgsz": 640,
+  "images_with_confidence_ge_005": 364,
+  "images_with_confidence_ge_010": 196,
+  "images_with_confidence_ge_025": 67,
+  "images_with_confidence_ge_050": 22,
+  "highest_false_positive_confidence": 0.831646740436554,
+  "lowest_selected_confidence": 0.02496390789747238
+}

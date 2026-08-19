@@ -1,6 +1,6 @@
-path: fracatlas_yolo
+path: detection
 
-train: train_stage3_crops.txt
+train: deprecated/train_stage3_crops.txt
 val: images/val
 test: images/test
 

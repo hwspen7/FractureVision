@@ -1,0 +1,49 @@
+{
+  "source_detection_dataset": "./datasets/fracatlas_yolo",
+  "source_coco_segmentation": "./datasets/fracatlas_raw/FracAtlas/Annotations/COCO JSON/COCO_fracture_masks.json",
+  "output_dataset": "./datasets/fracatlas_seg_yolo",
+  "class_names": {
+    "0": "fracture"
+  },
+  "coco_positive_images": 719,
+  "coco_annotations": 924,
+  "included_positive_images": 715,
+  "included_segmentation_objects": 917,
+  "excluded_duplicate_positive_ids": [
+    "IMG0002299.jpg",
+    "IMG0002300.jpg",
+    "IMG0002379.jpg",
+    "IMG0002615.jpg"
+  ],
+  "box_alignment_iou": {
+    "minimum": 0.9999339153763823,
+    "median": 0.9999828498964539,
+    "matches_at_least_0_99": 917
+  },
+  "image_storage": {
+    "hardlink": 4068
+  },
+  "splits": {
+    "train": {
+      "images": 3248,
+      "positive": 570,
+      "negative": 2678,
+      "objects": 757,
+      "polygon_points": 4733
+    },
+    "val": {
+      "images": 480,
+      "positive": 82,
+      "negative": 398,
+      "objects": 91,
+      "polygon_points": 517
+    },
+    "test": {
+      "images": 340,
+      "positive": 63,
+      "negative": 277,
+      "objects": 69,
+      "polygon_points": 403
+    }
+  }
+}

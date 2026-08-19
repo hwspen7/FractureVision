@@ -1,0 +1,72 @@
+{
+  "source_csv_records": 4083,
+  "source_image_files": 4085,
+  "unique_content_images": 4068,
+  "removed_duplicate_ids": 15,
+  "duplicate_label_conflict_groups": 3,
+  "ignored_wrong_folder_copies": [
+    "images/Non_fractured/IMG0003375.jpg",
+    "images/Non_fractured/IMG0003376.jpg"
+  ],
+  "class_names": {
+    "0": "fracture"
+  },
+  "split_ratios_for_negatives": {
+    "train": 0.8,
+    "val": 0.12,
+    "test": 0.08
+  },
+  "splits": {
+    "train": {
+      "images": 3248,
+      "positive": 570,
+      "negative": 2678,
+      "objects": 757,
+      "regions": {
+        "hand": 1018,
+        "leg": 1687,
+        "hand+shoulder+mixed": 189,
+        "hip": 143,
+        "leg+hip+mixed": 112,
+        "shoulder": 82,
+        "hand+hip+shoulder+mixed": 11,
+        "hand+hip+mixed": 2,
+        "hand+leg+mixed": 3,
+        "hand+leg+hip+mixed": 1
+      }
+    },
+    "val": {
+      "images": 480,
+      "positive": 82,
+      "negative": 398,
+      "objects": 91,
+      "regions": {
+        "hand": 150,
+        "leg": 251,
+        "hand+shoulder+mixed": 26,
+        "hip": 20,
+        "shoulder": 10,
+        "leg+hip+mixed": 21,
+        "hand+leg+mixed": 1,
+        "hand+hip+shoulder+mixed": 1
+      }
+    },
+    "test": {
+      "images": 340,
+      "positive": 63,
+      "negative": 277,
+      "objects": 69,
+      "regions": {
+        "leg": 178,
+        "hand": 106,
+        "hand+leg+hip+shoulder+mixed": 1,
+        "hand+shoulder+mixed": 18,
+        "hip": 16,
+        "leg+hip+mixed": 8,
+        "shoulder": 9,
+        "hand+leg+mixed": 2,
+        "hand+hip+shoulder+mixed": 2
+      }
+    }
+  }
+}
