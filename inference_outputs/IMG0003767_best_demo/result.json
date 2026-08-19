@@ -1,0 +1,83 @@
+{
+  "model": "experiments/segmentation/training/recall_optimized/weights/f2_best.pt",
+  "device": "mps",
+  "method": "single_model_original_flip_mild_contrast_wbf_visual_deduplication",
+  "evidence_normalization": {
+    "name": "validation_threshold_odds_normalization",
+    "tta_f2_operating_threshold": 0.13713713713713713,
+    "operating_threshold_maps_to": 0.5,
+    "is_medical_probability": false
+  },
+  "detection_count": 2,
+  "raw_fused_candidate_count": 4,
+  "suppressed_duplicate_count": 2,
+  "source_image": "datasets/segmentation/images/val/IMG0003767.jpg",
+  "output_directory": "inference_outputs/IMG0003767_best_demo",
+  "original_image": "original.png",
+  "detections": [
+    {
+      "number": 1,
+      "display_label": "#1 96.01%",
+      "confidence": 0.7928792635599772,
+      "confidence_percent": 79.28792635599771,
+      "raw_fusion_confidence": 0.7928792635599772,
+      "raw_fusion_confidence_percent": 79.28792635599771,
+      "evidence_score": 0.9601376125248022,
+      "evidence_score_percent": 96.01376125248022,
+      "confidence_level": "high",
+      "confidence_level_label": "High",
+      "color_hex": "#F43F5E",
+      "box": [
+        129.0,
+        192.0,
+        193.0,
+        240.0
+      ],
+      "box_source": "final_fused_mask_bounds_with_padding",
+      "model_fused_box": [
+        131.9825897216797,
+        193.5287628173828,
+        187.80279541015625,
+        238.8450927734375
+      ],
+      "view_support": 3,
+      "absorbed_duplicates": 2,
+      "result_image": "candidate_01.png"
+    },
+    {
+      "number": 2,
+      "display_label": "#2 0.24%",
+      "confidence": 0.00038994650822132826,
+      "confidence_percent": 0.038994650822132826,
+      "raw_fusion_confidence": 0.00038994650822132826,
+      "raw_fusion_confidence_percent": 0.038994650822132826,
+      "evidence_score": 0.002448479397758171,
+      "evidence_score_percent": 0.2448479397758171,
+      "confidence_level": "trace",
+      "confidence_level_label": "Trace",
+      "color_hex": "#94A3B8",
+      "box": [
+        129.0,
+        229.0,
+        184.0,
+        262.0
+      ],
+      "box_source": "final_fused_mask_bounds_with_padding",
+      "model_fused_box": [
+        130.82423400878906,
+        230.31690979003906,
+        183.63906860351562,
+        257.24835205078125
+      ],
+      "view_support": 1,
+      "absorbed_duplicates": 0,
+      "result_image": "candidate_02.png"
+    }
+  ],
+  "result_images": [
+    "candidate_01.png",
+    "candidate_02.png"
+  ],
+  "confidence_note": "Evidence Score is validation-threshold normalized and is not a medical probability. Raw Fusion is preserved for transparency.",
+  "result_json": "result.json"
+}

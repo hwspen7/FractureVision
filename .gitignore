@@ -59,9 +59,7 @@ datasets/segmentation/labels/
 datasets/*_building/
 datasets/**/_building/
 
-inference_outputs/
 
-!inference_outputs/README.md
 
 *_analysis/
 *_analysis_*/
@@ -90,3 +88,7 @@ ultralytics/assets/*.py[cod]
 *.7z
 *.tar
 *.tar.gz
+
+inference_outputs/*
+!inference_outputs/IMG0003767_best_demo/
+!inference_outputs/IMG0003767_best_demo/**
