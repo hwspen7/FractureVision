@@ -13,7 +13,7 @@ ultralytics-thop>=2.0.0,<3.0.0
 
 # Image processing
 opencv-python>=4.8.0,<6.0.0
-Pillow>=10.0.0,<13.0.0
+Pillow>=12.3.0,<13.0.0
 
 # Desktop interface
 PyQt5>=5.15.10,<5.16.0
